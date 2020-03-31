@@ -41,6 +41,6 @@ class TimeSeries(object):
 if __name__ == '__main__':
     fig = plt.figure()
     data = Simulation(1000)
-    ani = animation.FuncAnimation(fig, data.plot, interval=10)
+    ani = animation.FuncAnimation(fig, data.plot, interval=1)
     # ts = TimeSeries(10000)
     plt.show()
